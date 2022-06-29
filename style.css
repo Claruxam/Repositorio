@@ -58,9 +58,11 @@ body{
 
 .titles{
     position: relative;
-    font-size: 400px;
     font-size: 6vw;
-    width: 100%;
+    font-size:calc(20px + 6vw);
+    align-items: flex-start;
+    margin: 40px;
+
 }
 
 .title-word-1{
@@ -154,6 +156,8 @@ body{
     display: none;
 }
 
+.toggle {
+}
 
 /* MENU */
 
